@@ -7,5 +7,7 @@ let amount = document.getElementById("amount");
 
 function calculate(){
     let sum = (user_amount.value * user_rate.value * user_time.value) / 100;
+    principle.innerText = user_amount.value;
+    interest.innerText = sum;
     amount.innerText = user_amount.value + sum;
 }
