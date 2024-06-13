@@ -11,6 +11,29 @@
 
 <body>
 
+    <div id="main">
+        <form>
+            <h3>Simple Interest Calculator</h3>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Principle Amount:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" >
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">rate (%):</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword2" class="form-label">Time:</label>
+                <input type="password" class="form-control" id="exampleInputPassword2">
+              </div>
+            <button type="submit" class="btn btn-primary" onclick="" id="check">Calculate</button>
+            <div id="output">
+            <p>Principle amount: <span id="principle"></span></p>
+            <p>Total Amount: <span id="amount"></span></p>
+            <p>Total Value: <span id="value"></span></p>
+            </div>
+          </form>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
