@@ -30,7 +30,9 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
 }
 #exampleInputEmail1, #exampleInputPassword1, #exampleInputPassword2{
     width: 80%;
@@ -46,4 +48,13 @@ h3{
 #check{
     padding: 10px 40px;
     font-size: 18px ;
+}
+#output{
+    text-align: center;
+    padding: 10px;
+}
+#output p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
 }
